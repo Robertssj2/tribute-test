@@ -1,30 +1,37 @@
 html {
-    background-color: #dadada;
+    background-color: white;
 }
 #title{}
 body {
+
+    background-color: #EaEaEa;
+    border-radius: 5px;
     min-width: 300px;
     padding: 10px;
-    margin: auto;
+    margin: 30px 7px 30px 7px;
     text-align: center;
 }
 h1 {
     font-size: 50px;
 }
 #img-div {
-    margin: 0px auto;
-}
-#image {
+    background-color: #ffffff;
     width: 90%;
     height: auto;
     border-width: 10px;
-    border-color: white;
+    border-color: white;        
     border-style: solid;
+    
+}
+#image {
+    width: 100%;
+    height: auto;
+    border-width: 0px;
     display: block;
     margin: 0px auto;
 }
 #img-caption {
-    font-size: 10px;
+    font-size: 15px;
 }
 #tribute-info {
     margin: auto;
