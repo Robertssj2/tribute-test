@@ -1,9 +1,44 @@
+html {
+    background-color: #dadada;
+}
 #title{}
-h1 {}
-#img-div {}
-#image {}
-#img-caption {}
-#tribute-info {}
-h2 {}
-#footer {}
+body {
+    min-width: 300px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+#img-div {
+    margin: 0px auto;
+}
+#image {
+    width: 90%;
+    height: auto;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+    display: block;
+    margin: 0px auto;
+}
+#img-caption {
+    font-size: 10px;
+}
+#tribute-info {
+    margin: auto;
+    text-align: justify;
+    max-width: 500px;
+    padding: 0px 5px;
+}
+h2 {
+    text-align: center;
+}
+ul {
+    font-size: 15px;
+}
+#footer {
+    font-size: 15px;
+}
 a {}
